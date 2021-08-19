@@ -10,16 +10,6 @@ app_email = "rakshith.n@promantia.com"
 app_license = "MIT"
 
 fixtures = ['Client Script', 'Server Script',
-            {
-                "dt": "DocType",
-                "filters": [
-                    [
-                        "name", "in", [
-                            "Warehouse Location"
-                        ]
-                    ]
-                ]
-            },
             {"dt": "Custom Field",
              "filters": [
                  [
