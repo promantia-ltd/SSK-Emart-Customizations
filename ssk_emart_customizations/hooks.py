@@ -9,6 +9,44 @@ app_color = "grey"
 app_email = "rakshith.n@promantia.com"
 app_license = "MIT"
 
+fixtures = [
+    {"dt": "Custom Field",
+     "filters": [
+         [
+             "name", "in", [
+                 "Location-type",
+                 "Location-code",
+                 "Location-section_break_9",
+                 "Warehouse-capacity",
+                 "Warehouse-depth",
+                 "Warehouse-column_break_21",
+                 "Warehouse-width",
+                 "Warehouse-height",
+                 "Warehouse-column_break_15",
+                 "Warehouse-bin",
+                 "Warehouse-shelf",
+                 "Warehouse-rack",
+                 "Warehouse-aisle",
+                 "Warehouse-location",
+                 "Warehouse-storage_bin",
+                 "Warehouse-section_break_11"
+             ]
+         ]
+     ]
+     },
+    {"dt": "Property Setter",
+     "filters": [
+         [
+             "name", "in",
+             [
+                 "Warehouse-address_and_contact-depends_on",
+             ]
+         ]
+     ]
+     },
+]
+
+
 # Includes in <head>
 # ------------------
 
@@ -181,4 +219,3 @@ app_license = "MIT"
 # auth_hooks = [
 # 	"ssk_emart_customizations.auth.validate"
 # ]
-
