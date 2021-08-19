@@ -10,44 +10,53 @@ app_email = "rakshith.n@promantia.com"
 app_license = "MIT"
 
 fixtures = ['Client Script',
-    {"dt": "Custom Field",
-     "filters": [
-         [
-             "name", "in", [
-                 "Location-type",
-                 "Location-code",
-                 "Location-section_break_9",
-                 "Warehouse-capacity",
-                 "Warehouse-depth",
-                 "Warehouse-column_break_21",
-                 "Warehouse-width",
-                 "Warehouse-height",
-                 "Warehouse-column_break_15",
-                 "Warehouse-bin",
-                 "Warehouse-shelf",
-                 "Warehouse-rack",
-                 "Warehouse-aisle",
-                 "Warehouse-location",
-                 "Warehouse-storage_bin",
-                 "Warehouse-section_break_11",
-                 "Warehouse-maps",
-                 "Warehouse-geo",
-                 "Warehouse-address_line"
+            {
+                "dt": "DocType",
+                "filters": [
+                    [
+                        "name", "in", [
+                            "Warehouse Location"
+                        ]
+                    ]
+                ]
+            },
+            {"dt": "Custom Field",
+             "filters": [
+                 [
+                     "name", "in", [
+                         "Warehouse-capacity",
+                         "Warehouse-depth",
+                         "Warehouse-column_break_21",
+                         "Warehouse-width",
+                         "Warehouse-height",
+                         "Warehouse-address_line",
+                         "Warehouse-column_break_15",
+                         "Warehouse-bin",
+                         "Warehouse-warehouse_location",
+                         "Warehouse-shelf",
+                         "Warehouse-rack",
+                         "Warehouse-aisle",
+                         "Warehouse-location",
+                         "Warehouse-storage_bin",
+                         "Warehouse-section_break_11",
+                         "Warehouse-maps",
+                         "Warehouse-geo",
+                         "Warehouse-address_line"
+                     ]
+                 ]
              ]
-         ]
-     ]
-     },
-    {"dt": "Property Setter",
-     "filters": [
-         [
-             "name", "in",
-             [
-                 "Warehouse-address_and_contact-depends_on",
-             ]
-         ]
-     ]
-     },
-]
+             },
+            {"dt": "Property Setter",
+                "filters": [
+                    [
+                        "name", "in",
+                        [
+                            "Warehouse-address_and_contact-depends_on",
+                        ]
+                    ]
+                ]
+             },
+            ]
 
 
 # Includes in <head>
