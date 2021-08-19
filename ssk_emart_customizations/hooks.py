@@ -9,7 +9,7 @@ app_color = "grey"
 app_email = "rakshith.n@promantia.com"
 app_license = "MIT"
 
-fixtures = [
+fixtures = ['Client Script',
     {"dt": "Custom Field",
      "filters": [
          [
@@ -29,7 +29,10 @@ fixtures = [
                  "Warehouse-aisle",
                  "Warehouse-location",
                  "Warehouse-storage_bin",
-                 "Warehouse-section_break_11"
+                 "Warehouse-section_break_11",
+                 "Warehouse-maps",
+                 "Warehouse-geo",
+                 "Warehouse-address_line"
              ]
          ]
      ]
