@@ -9,7 +9,7 @@ app_color = "grey"
 app_email = "rakshith.n@promantia.com"
 app_license = "MIT"
 
-fixtures = ['Client Script',
+fixtures = ['Client Script', 'Server Script',
             {
                 "dt": "DocType",
                 "filters": [
@@ -41,7 +41,8 @@ fixtures = ['Client Script',
                          "Warehouse-section_break_11",
                          "Warehouse-maps",
                          "Warehouse-geo",
-                         "Warehouse-address_line"
+                         "Warehouse-address_line",
+                         "Warehouse-label"
                      ]
                  ]
              ]
