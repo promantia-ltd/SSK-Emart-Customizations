@@ -6,7 +6,7 @@
   "doctype": "Property Setter",
   "doctype_or_field": "DocField",
   "field_name": "address_and_contact",
-  "modified": "2021-08-19 12:09:13.101856",
+  "modified": "2021-08-20 02:19:56.926342",
   "name": "Warehouse-address_and_contact-depends_on",
   "parent": null,
   "parentfield": null,
@@ -14,6 +14,6 @@
   "property": "depends_on",
   "property_type": "Data",
   "row_name": null,
-  "value": "eval:doc.storage_bin==0; eval:!doc.__islocal"
+  "value": "eval:doc.storage_bin==0;"
  }
 ]

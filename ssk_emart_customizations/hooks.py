@@ -22,7 +22,6 @@ fixtures = ['Client Script', 'Server Script',
                          "Warehouse-address_line",
                          "Warehouse-column_break_15",
                          "Warehouse-bin",
-                         "Warehouse-warehouse_location",
                          "Warehouse-shelf",
                          "Warehouse-rack",
                          "Warehouse-aisle",
@@ -32,7 +31,9 @@ fixtures = ['Client Script', 'Server Script',
                          "Warehouse-maps",
                          "Warehouse-geo",
                          "Warehouse-address_line",
-                         "Warehouse-label"
+                         "Warehouse-label",
+                         "Warehouse-warehouse_location",
+                         "Warehouse-warehouse_locations"
                      ]
                  ]
              ]
