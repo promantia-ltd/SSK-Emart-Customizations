@@ -33,7 +33,7 @@ fixtures = ['Client Script', 'Server Script',
                          "Warehouse-address_line",
                          "Warehouse-label",
                          "Warehouse-warehouse_location",
-                         "Warehouse-warehouse_locations"
+                         "Warehouse-warehouse_locations",
                      ]
                  ]
              ]

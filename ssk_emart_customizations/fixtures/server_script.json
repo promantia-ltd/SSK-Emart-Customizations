@@ -7,13 +7,13 @@
   "doctype": "Server Script",
   "doctype_event": "Before Save",
   "event_frequency": "All",
-  "modified": "2021-08-19 18:31:40.750400",
+  "modified": "2021-08-20 02:39:33.378008",
   "name": "Create Label",
   "parent": null,
   "parentfield": null,
   "parenttype": null,
   "reference_doctype": "Warehouse",
-  "script": "if doc.storage_bin == 1:\n    label = ''\n    if doc.warehouse_location:\n        label = label + str(doc.warehouse_location) + '-'\n    \n    if doc.aisle:\n        label = label + 'a' + str(doc.aisle) + '-'\n    \n    if doc.rack:\n        label = label + 'r' + str(doc.rack) + '-'\n    \n    if doc.shelf:\n        label = label + 's' + str(doc.shelf) + '-'\n    \n    if doc.bin:\n        label = label + 'b' + str(doc.bin)\n\n    if label != '':\n        doc.label = label",
+  "script": "if doc.storage_bin == 1:\n    label = ''\n    if doc.location:\n        label = label + str(doc.location) + '-'\n    \n    if doc.aisle:\n        label = label + 'a' + str(doc.aisle) + '-'\n    \n    if doc.rack:\n        label = label + 'r' + str(doc.rack) + '-'\n    \n    if doc.shelf:\n        label = label + 's' + str(doc.shelf) + '-'\n    \n    if doc.bin:\n        label = label + 'b' + str(doc.bin)\n\n    if label != '':\n        doc.label = label",
   "script_type": "DocType Event"
  }
 ]
